@@ -1,0 +1,43 @@
+body {
+	background-color: cadetblue;
+	color: white;
+	padding: $gutter;
+	text-align: center;
+}
+
+.contentWrapper {
+	max-width: 1000px;
+	border: 5px solid seashell;
+	border-radius: 20px;
+	padding: $gutter 0;
+	margin: 0 auto;
+}
+
+.rationaleWrapper, .formWrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+form ul li {
+	list-style-type: none;
+}
+
+.transport {
+	line-height: $gutter;
+}
+
+input[type=radio] {
+	margin: $gutter / 2;
+}
+
+.map {
+	height: 300px;
+	width: 100%;
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.map p {
+	padding: $gutter;
+}
